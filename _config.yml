@@ -1,0 +1,42 @@
+name:
+description: A self-taught Ruby-ist gifting back knowledge to the community
+meta_description: "Your New Jekyll Site, Blogging about stuffs"
+
+aboutPage: true
+
+markdown: kramdown
+highlighter: rouge
+
+plugins: [jekyll-paginate]
+paginate: 20
+domain_name: 'https://caseyprovost.github.io'
+google_analytics: 'UA-XXXXXXXX-X'
+disqus: false
+disqus_shortname: 'caseyrprovost'
+
+# Details for the RSS feed generator
+url:            'https://github.caseyprovost.com'
+author:         'Casey Provost'
+authorTwitter:  'caseyprovost'
+
+permalink:       /:year/:title/
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+      type: pages
+    values:
+      layout: default
+  -
+    scope:
+      path: "" # empty string for all files
+      type: posts
+    values:
+      layout: post
+  -
+    scope:
+      path: ""
+      type: drafts
+    values:
+      layout: post
