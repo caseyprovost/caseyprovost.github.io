@@ -1,4 +1,4 @@
-name: A Developer's Digressions
+title: A Developer's Digressions
 description: A self-taught web developer gifting back nuggets of knowledge
 author: "Casey Provost"
 
@@ -15,7 +15,7 @@ navigation:
 
 # Header icons, see http://fontawesome.io/icons/ for all possible icons
 icons:
-  - github: "https://github.com/niklasbuschmann/contrast"
+  - github: "https://github.com/caseyprovost"
   - envelope: "mailto:caseyr.provost@gmail.com"
   - feed: "feed.xml"
 

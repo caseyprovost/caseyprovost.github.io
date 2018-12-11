@@ -1,23 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>A Developer's Digressions</title>
+    <title></title>
     <description>A self-taught web developer gifting back nuggets of knowledge</description>
     <link>http://localhost:4000</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Welcome to Jekyll!</title>
+        <title>Example Text</title>
         
         
-          <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code class=&quot;highlighter-rouge&quot;&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
+          <description>&lt;p&gt;Lorem &lt;strong&gt;ipsum dolor&lt;/strong&gt; sit amet, consectetur adipiscing elit, &lt;code class=&quot;highlighter-rouge&quot;&gt;sed do eiusmod tempor&lt;/code&gt; incididunt ut &lt;em&gt;labore&lt;/em&gt; et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud &lt;strong&gt;&lt;em&gt;exercitation&lt;/em&gt;&lt;/strong&gt; ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute &lt;em&gt;irure dolor&lt;/em&gt; in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&lt;/p&gt;
+
+&lt;p&gt;The term was coined in 1964 by two &lt;a href=&quot;https://en.wikipedia.org/wiki/Australia&quot;&gt;Australian&lt;/a&gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/CSIRO&quot;&gt;CSIRO&lt;/a&gt; researchers, Isabel Joy Bear and Richard G. Thomas, for an article in the journal &lt;a href=&quot;https://en.wikipedia.org/wiki/Nature_(journal)&quot;&gt;Nature&lt;/a&gt;. In the article, the authors describe how the smell derives from an oil exuded by certain &lt;a href=&quot;https://en.wikipedia.org/wiki/Plants&quot;&gt;plants&lt;/a&gt; during dry periods, whereupon it is &lt;a href=&quot;https://en.wikipedia.org/wiki/Absorption_(chemistry)&quot;&gt;absorbed&lt;/a&gt; by &lt;a href=&quot;https://en.wikipedia.org/wiki/Clay&quot;&gt;clay&lt;/a&gt;-based &lt;a href=&quot;https://en.wikipedia.org/wiki/Soil&quot;&gt;soils&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Rock_(geology)&quot;&gt;rocks&lt;/a&gt;.&lt;/p&gt;
 
 </description>
         
-        <pubDate>Sun, 10 Nov 2013 05:18:00 -0500</pubDate>
-        <link>http://localhost:4000/2013/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://localhost:4000/2013/welcome-to-jekyll/</guid>
+        <pubDate>Sat, 11 Feb 2017 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/example-text/</link>
+        <guid isPermaLink="true">http://localhost:4000/example-text/</guid>
+      </item>
+    
+      <item>
+        <title>Example Objects</title>
+        
+        
+          <description>&lt;h3 id=&quot;code&quot;&gt;Code&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;k&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;asyncEnabled&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Dict&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;vAdmin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;txid&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;struct&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Allocator&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requestAlloc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;struct&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Admin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;admin&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Identity_check&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;struct&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Admin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;vAdmin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int64_t&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;enabled&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;admin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;asyncEnabled&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;Dict&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;d&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Dict_CONST&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String_CONST&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;asyncEnabled&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Int_OBJ&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;enabled&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;NULL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;Admin_sendMessage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;txid&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;admin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+</description>
+        
+        <pubDate>Wed, 01 Feb 2017 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/example-objects/</link>
+        <guid isPermaLink="true">http://localhost:4000/example-objects/</guid>
+      </item>
+    
+      <item>
+        <title>Lorem ipsum dolor sit amet</title>
+        
+        
+          <description>&lt;p&gt;Lorem &lt;strong&gt;ipsum dolor&lt;/strong&gt; sit amet, consectetur adipiscing elit, &lt;code class=&quot;highlighter-rouge&quot;&gt;sed do eiusmod tempor&lt;/code&gt; incididunt ut &lt;em&gt;labore&lt;/em&gt; et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud &lt;strong&gt;&lt;em&gt;exercitation&lt;/em&gt;&lt;/strong&gt; ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute &lt;em&gt;irure dolor&lt;/em&gt; in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&lt;/p&gt;
+
+&lt;p&gt;The term was coined in 1964 by two &lt;a href=&quot;https://en.wikipedia.org/wiki/Australia&quot;&gt;Australian&lt;/a&gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/CSIRO&quot;&gt;CSIRO&lt;/a&gt; researchers, Isabel Joy Bear and Richard G. Thomas, for an article in the journal &lt;a href=&quot;https://en.wikipedia.org/wiki/Nature_(journal)&quot;&gt;Nature&lt;/a&gt;. In the article, the authors describe how the smell derives from an oil exuded by certain &lt;a href=&quot;https://en.wikipedia.org/wiki/Plants&quot;&gt;plants&lt;/a&gt; during dry periods, whereupon it is &lt;a href=&quot;https://en.wikipedia.org/wiki/Absorption_(chemistry)&quot;&gt;absorbed&lt;/a&gt; by &lt;a href=&quot;https://en.wikipedia.org/wiki/Clay&quot;&gt;clay&lt;/a&gt;-based &lt;a href=&quot;https://en.wikipedia.org/wiki/Soil&quot;&gt;soils&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Rock_(geology)&quot;&gt;rocks&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 17 Jan 2017 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/lorem-ipsum/</link>
+        <guid isPermaLink="true">http://localhost:4000/lorem-ipsum/</guid>
+      </item>
+    
+      <item>
+        <title>Pagination works</title>
+        
+        
+          <description>&lt;p&gt;If you have &lt;code class=&quot;highlighter-rouge&quot;&gt;paginate&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;show_excerpts&lt;/code&gt; enabled then this should be paginated.&lt;/p&gt;
+
+&lt;p&gt;So here is some quote to make this post appear to be longer.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Pagination is the process of dividing a document into discrete pages, either electronic pages or printed pages.
+- &lt;a href=&quot;https://en.wikipedia.org/wiki/Pagination&quot;&gt;Wikipedia&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        
+        <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/pagination-works/</link>
+        <guid isPermaLink="true">http://localhost:4000/pagination-works/</guid>
       </item>
     
   </channel>
