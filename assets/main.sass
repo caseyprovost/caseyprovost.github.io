@@ -1,0 +1,106 @@
+---
+---
+
+@function reduce ($percent)
+  @return rgba(mix(#282828, #fff), $percent / 100)
+
+@import font
+@import basic
+@import code
+@import table
+@import highlight
+@import anchor
+
+=dark
+  body
+    background: #282828
+    color: #fff
+  article
+    background: reduce(2)
+
+=light
+  body
+    background: #fff
+    color: #333
+  article
+    background: reduce(0.5)
+  body > header, body > footer
+    box-shadow: 0 0 2em #f8f8f8
+
+{% if site.dark_theme %}
++dark
+{% else %}
++light
+{% endif %}
+
+@media (prefers-color-scheme: dark)
+  +dark
+
+@media (prefers-color-scheme: light)
+  +light
+
+body
+  display: flex
+  font-size: calc(1em + 0.3vw)
+  min-height: 100vh
+  
+body > header, body > footer
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  align-items: baseline
+
+body > footer
+  background: reduce(6)
+  color: reduce(100)
+  border-top: 1px solid reduce(8)
+
+article, body > header, body > footer
+  padding: 1em calc(26% - 4em)
+
+article
+  border-top: 1px solid reduce(8)
+
+article header
+  text-align: center
+  margin-top: 0.2em
+  margin-bottom: 1.6em
+
+article footer
+  padding: 1em 0
+
+table
+  width: 100%
+
+header h1
+  font-size: 1.5em
+  margin: 0
+
+header a
+  color: inherit
+
+nav
+  margin: 0.4em -1rem
+
+nav a
+  display: inline-block
+  margin: 0 1rem
+
+.fill h1
+  width: 100%
+  font-size: 1.75em
+  margin-bottom: 0.25em
+
+.archive div
+  display: flex
+  align-items: baseline
+
+.archive h3
+  margin: 0.2em 0
+
+.archive time
+  color: reduce(100)
+  min-width: 6em
+
+.archive h1, .archive a
+  font-weight: 300

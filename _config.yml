@@ -1,42 +1,35 @@
-name:
-description: A self-taught Ruby-ist gifting back knowledge to the community
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: A Developer's Digressions
+description: A self-taught web developer gifting back nuggets of knowledge
+author: "Casey Provost"
 
-aboutPage: true
+# Styling
+permalink: /:title/
+dark_theme: true
+show_excerpts: true
 
-markdown: kramdown
-highlighter: rouge
+# Add navigation links to the header
+navigation:
+  - index.html
+  - archive.html
+  - about.md
 
-plugins: [jekyll-paginate]
-paginate: 20
-domain_name: 'https://caseyprovost.github.io'
-google_analytics: 'UA-XXXXXXXX-X'
-disqus: false
-disqus_shortname: 'caseyrprovost'
+# Header icons, see http://fontawesome.io/icons/ for all possible icons
+icons:
+  - github: "https://github.com/niklasbuschmann/contrast"
+  - envelope: "mailto:caseyr.provost@gmail.com"
+  - feed: "feed.xml"
 
-# Details for the RSS feed generator
-url:            'https://github.caseyprovost.com'
-author:         'Casey Provost'
-authorTwitter:  'caseyprovost'
+# Embed comments
+comments:
+ disqus: "disqus-contrast"
+ isso: "comments.mysite.org"
 
-permalink:       /:year/:title/
+# Pagination
+paginate: 2
+excerpt_separator: "\n\n\n" # end excerpt after two blank lines
+more: "read more »"
+newer: "« newer posts"
+older: "older posts »"
 
-defaults:
-  -
-    scope:
-      path: "" # empty string for all files
-      type: pages
-    values:
-      layout: default
-  -
-    scope:
-      path: "" # empty string for all files
-      type: posts
-    values:
-      layout: post
-  -
-    scope:
-      path: ""
-      type: drafts
-    values:
-      layout: post
+plugins:
+ - jekyll-feed

@@ -1,0 +1,9 @@
+<article class="archive">
+  <h1>Posts</h1>
+  {% for post in site.posts %}
+  <div>
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
+    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+  </div>
+  {%- endfor -%}
+</article>
