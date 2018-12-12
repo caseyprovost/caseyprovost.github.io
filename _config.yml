@@ -3,7 +3,7 @@ description: A self-taught web developer gifting back nuggets of knowledge
 author: "Casey Provost"
 
 # Styling
-permalink: /:title/
+permalink: /:title
 dark_theme: false
 show_excerpts: true
 
