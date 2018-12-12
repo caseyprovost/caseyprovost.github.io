@@ -4,7 +4,7 @@ author: "Casey Provost"
 
 # Styling
 permalink: /:title/
-dark_theme: true
+dark_theme: false
 show_excerpts: true
 
 # Add navigation links to the header
